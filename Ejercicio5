@@ -1,0 +1,11 @@
+def bisiesto(year):
+    if year % 4 == 0 and year % 100 != 0:
+        print("Es un año bisiesto")
+    elif year % 100 == 0 and year % 400 ==0:
+        print("Es un año bisiesto")
+    elif year % 100 == 0 and year % 400 !=0:
+        print("No es un año bisiesto")
+    else:
+        print("No es un año bisiesto")
+
+bisiesto(2021)
